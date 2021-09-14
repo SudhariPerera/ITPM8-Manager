@@ -1,13 +1,424 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  body{
+    background-color: #19224D;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  /*CSS For NavBar*/
+
+  .container-fluid{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #707070;
+    padding-left: auto;
+    padding-right: auto;
+  }
+
+  .d-flex{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 570px;
+  }
+
+  #searchNav{
+    background-color: #ffffff;
+    color: #707070;
+    font-weight: 700;
+    border-color: #707070;
+  }
+
+  #searchBtnNav{
+    background-color: #707070;
+    color: white;
+    font-weight: 700;
+    border: none;
+  }
+
+  /*CSS For NavBar*/
+
+  /*-------------------------------TABLE---------------------------------*/
+  .InventrycontainerHome{
+        width:100%;
+        height: max-content;
+        background-color:none;
+        padding-top: 20px;
+        padding-bottom: 61px;
+      }
+
+  .navContainer{
+    position: fixed;
+    width: 100%;
+  }
+
+  .InventryaddItemBtn{
+    background-color: #6ae990;
+    border: none;
+    color: white;
+    margin-top: 6px;
+    float: center;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .InventryaddItemBtn:hover{
+    background-color: #32C15E;
+  }
+
+  .InventrytableHome .th8{
+    padding-top: 1%;
+    background-color:#19224D;
+    color: #19224D;
+    margin-left:center;
+  }
+
+  .InventrytableHome{
+    width: 980px;
+    height: 70%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+  }
+
+  .InventrytableHome th,td{
+    font-family: Segoe UI;
+    font-size: 25px;
+    padding: 15px;
+    background-color: none;
+    text-align: left;
+  }
+
+  .InventrytableHome tr:hover{
+    background-color: #ececec;
+  }
+
+  .InventrytableHome th{
+    background-color: #7c7c7c;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  } 
+
+  #ProductId{
+    padding-left: 50px;
+  }
+
+  .InventrytableHome td{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 530;;
+  }
+
+  .action{
+    background-color: #19224D;
+  }
+  /*-------------------------------TABLE---------------------------------*/
+
+  /*------------------------CSS For DashBoard.js------------------------*/
+  .dash_container{
+    margin: 0 auto;
+    background-color: none;
+    width: max-content;
+    height: 100%;
+    position: fixed;
+    top: 50px;
+  }
+
+  .dashbtnbox #date{
+    margin-top: 80px;
+    color: #707070;
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: 700;
+  }
+
+  .dashbtnbox{
+    border:  none;
+    background-color: white;
+    width: 240px;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    
+  }
+
+  .dashbtnbox button{
+    position: relative;
+    width: 220px;
+    height: 45px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #19224D;
+    font-family: Segoe UI;
+    font-size: 17px;
+    font-weight: 694;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .dashbtnbox button:hover{
+    background-color: #233381;
+    
+  }
+  /*------------------------------CSS For DashBoard.js---------------------------*/
+
+  /*-----------------------------CSS For Footer.js-------------------------------*/
+
+  .footer{
+    background-color: white;
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #707070;
+  }
+
+  .footer .copyright{
+    background-color: none;
+    width: max-content;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer .copyright h1{
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-size: 15px;
+    color: #707070;
+  }
+
+  /*-----------------------------CSS For Footer.js------------------------------*/
+
+  /*-------------------------UPDATE PAGE---------------------------------------*/
+
+  #editBtn{
+    background-color: #33D273;
+    color: white;
+    border: none;
+    font-weight: 700;
+  }
+
+  /*-------------------------DELETE------------------------------------------*/
+
+  #deletetBtn{
+    background-color: #ff6464;
+    color: white;
+    border: none;
+    font-weight: 700;
+  }
+
+  /*---------------------------CSS For CreatePost.js--------------------------*/
+
+  #InventryContainer_addItem_POPUP{
+    margin-top: 30px;
+    background-color: white;
+    height: max-content;
+    text-align: left;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #InventryContainer_addItem_POPUP img{
+    width: 210px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 120px;
+  }
+
+  .InventryCloseBtnContainer{
+    background-color: red;
+  }
+
+  .InventryCloseBtnContainer .close{
+    float: right;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(114, 114, 114);
+    margin-top: -20px;
+  }
+
+  #InventryContainer_addItem_POPUP img{
+    width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+   .InventryFormContainer{
+    height: max-content;
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+    color: #707070;
+  }
+
+  .InventryAddItem_h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 40px;
+  }
+
+  #uploadcontainer{
+    margin-top: 30px;
+  }
+
+  .InventryAddItem_form_group{
+    margin-bottom: 15px;
+    display: grid;
+    font-weight: 700;
+    
+  }
+
+  .InventryAddItem_form_group label{
+    color: rgb(71, 71, 71);
+
+  }
+
+  .InventryAddItem_input{
+    width: 450px;
+    height: 40px;
+    font-weight: 700;
+    color: #707070;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 2px;
+    border-color: #E3E3E3;
+  }
+
+  .InventryAddItem_Btn{
+    width: 150px;
+    height: 40px;
+    background-color: #00A156;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    float: right;
+  }
+
+  .InventryAddItem_Btn:hover{
+    background-color: #006E3B;
+  }
+
+  /*---------------------------End CreatePost.js--------------------------*/
+
+  /*--------------------------------CSS for Product Edit Page-----------------*/
+
+  .InventryUpdatedetails_container{
+    background-color: white;
+    width: 700px;
+    margin-Top:80px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: #19224D;
+    display: block;
+    float: right;
+    margin-right:170px;
+  }
+
+  .InventryContainerEdit{
+    background-color: none;
+    display: inline-flex;
+  }
+
+  .InventryUpdatedetails_container h4{
+    font-weight: 700;
+    padding-top: 15px;
+  }
+
+  .InventryUpdatedetails_container .row8{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+
+  #InventryImgContainerEdit{
+    background-color: none;
+    width: max-content;
+    height: max-content;
+    margin-left: -150px;
+  }
+
+  #InventryImgContainerEdit img{
+    width: 250px;
+  }
+
+  .InventryUpdatedetails_container button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+  }
+
+  .InventryUpdatedetails_container button:hover{
+    background-color: #FFFFFF;
+    color: Black;
+    border: solid;
+    border-color: black;
+  }
+
+  .InventryUpdatedetails_container button:active{
+    color: #FFFFFF;
+    background: #858585;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+  }
+
+  .InventryCol1{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .InventryCol2{
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  /*---------------------------End Edit Post.js--------------------------*/
